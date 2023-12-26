@@ -1,10 +1,11 @@
 import { Outlet } from 'react-router-dom';
 import './App.css';
+import Header from './shared/Header';
 
 function App() {
   return (
    <div>
-    <h1>Ticketing App...</h1>
+   <Header></Header>
   
     <Outlet></Outlet>
     </div>
